@@ -1,0 +1,48 @@
+.table {
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  th {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+  }
+  td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+  }
+}
+
+.spiner {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  .change, .delete {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+  }
+  .change {
+    border: 1px solid green;
+  }
+  .delete {
+    border: 1px solid red;
+  }
+}
